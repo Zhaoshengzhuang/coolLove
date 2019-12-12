@@ -1,103 +1,55 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>不理人，烦死了</title>
-<link rel="stylesheet" href="css/index.css" />
-<style>
-body{
-    height: 100vh;
-    width:100vw;
-	overflow: hidden;
-	margin: 0 auto;
-	background: url('img/16.jpg') no-repeat;
-	background-attachment:fixed;
-	background-size:cover;
-	-moz-background-size:cover;
-	-webkit-background-size:cover;
-}
-
-.snowfall-flakes:before {
-	content: "";
-	/*绝对定位*/
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 10px;
-	height: 16px;
-	transform: rotate(-45deg);
-	background-color: red;
-	border-radius: 5px 5px 1px 1px;
-}
-
-.snowfall-flakes:after {
-	content: ""; /*激活伪元素的必要因素*/
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 10px;
-	height: 16px;
-	transform: translateX(4.3px) rotate(45deg);
-	background-color: red;
-	border-radius: 5px 5px 1px 1px;
-}
-</style>
-
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>能放纵的是欲望，能克制的才是理性</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        html,body{
+            height:100%;
+            width:100%;
+            overflow: hidden;
+            background: url("./img/lb.png") no-repeat 100%;
+        }
+        .main{
+            margin-top:30%;
+            color:#fff;
+            text-shadow:0 0 5px #CCCCCC, 0 0 10px #CCCCCC, 0 0 15px #CCCCCC, 0 0 20px #095816, 0 0 25px #095816, 0 0 30px #095816, 0 0 50px #095816, 0 0 80px #095816, 0 0 100px #095816, 0 0 150px #095816
+        }
+        .main p{
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
 
-    <div class="wrap">
-        <!--	/*��������Ԫ�ص�����*/-->
-        <div class="cube">
-            <!--ǰ��ͼƬ -->
-            <div class="out_front">
-                <img src="img/1.jpeg"  class="pic"/>
-            </div>
-            <!--����ͼƬ -->
-            <div class="out_back">
-                <img src="img/2.jpeg"  class="pic"/>
-            </div>
-            <!--��ͼƬ -->
-            <div class="out_left">
-                <img src="img/3.jpeg"  class="pic"/>
-            </div>
-            <div class="out_right">
-                <img src="img/4.jpeg"  class="pic"/>
-            </div>
-            <div class="out_top">
-                <img src="img/5.jpeg"  class="pic"/>
-            </div>
-            <div class="out_bottom">
-                <img src="img/6.jpeg"  class="pic"/>
-            </div>
-            <!--С������ -->
-            <span class="in_front">
-				<img src="img/7.jpeg" class="in_pic" />
-			</span>
-            <span class="in_back">
-			     <img src="img/8.jpeg" class="in_pic" />
-			</span>
-            <span class="in_left">
-				<img src="img/9.jpeg" class="in_pic" />
-			</span>
-            <span class="in_right">
-				<img src="img/10.jpeg" class="in_pic" />
-			</span>
-            <span class="in_top">
-				<img src="img/11.jpeg" class="in_pic" />
-			</span>
-            <span class="in_bottom">
-				<img src="img/12.jpeg" class="in_pic" />
-			</span>
-        </div>
-    </div>
-
-<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-<script type="text/javascript" src="js/snowfall.jquery.min.js"></script>
-<script type="text/javascript">
-    $(document).snowfall({ flakeCount: 100, maxSpeed: 5 });
-</script>
-
+<div class="main">
+    <p> 她可能是你多年后的妻子</p>
+    <p>是你喝醉后傻笑着和朋友吹牛说年少时怎样追她</p>
+    <p>也可能是多年后别人的枕边人</p>
+    <p>
+        是你在霓虹深处喝着三十一打的酒
+    </p>
+    <p>向一群陌生人哭诉身边的怎么不是她</p>
+    <p>
+        我太胆小
+    </p>
+    <p>
+        乱世如麻不敢称军阀
+    </p>
+    <p>
+        太平盛世不敢说爱你
+    </p>
+    <p>
+        年少别遇见太惊艳的人
+    </p>
+    <p>
+        误终生
+    </p>
+</div>
 </body>
 </html>
